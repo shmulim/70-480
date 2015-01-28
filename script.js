@@ -22,7 +22,7 @@ lineContext.stroke();
 var drawTextCanvas = document.getElementById('draw-text');
 var drawTextContext = drawTextCanvas.getContext('2d');
 drawTextContext.font = '30px Arial';
-drawTextContext.fillText('Hello World', 10, 50)
+drawTextContext.fillText('Hello World', 10, 50);
 
 // Stroke text
 var strokeTextCanvas = document.getElementById('stroke-text');
