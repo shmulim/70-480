@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.box {
+    flex: 1;
+}
+
+#one {
+    background-color: red;
+}
+
+#two {
+    background-color: yellow;
+    flex: 2;
+}
+
+#three {
+    background-color: blue;
+}
